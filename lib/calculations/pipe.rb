@@ -1,5 +1,3 @@
-require "calculations"
-
 class Pipe
   include Calculations::Circle
   ## Let op, eenheden moeten gelijk zijn!!
@@ -35,5 +33,3 @@ class Pipe
   end
   
 end
-
-puts Pipe.content_in_litres_from_diameter_and_length(15,1000)
