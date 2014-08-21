@@ -3,6 +3,7 @@ Gem::Specification.new do |s|
   s.version = "0.0.0"
   s.date = "2014-08-21"
   s.files = ["lib/calculations.rb"]
+  s.files << "lib/calculations/simplecalc.rb"
   s.summary = "Several calculations"
   s.authors = ["Martijn Veldhuisen"]
   
